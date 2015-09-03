@@ -19,7 +19,7 @@ public class WelcomeService {
    public String getWelcomeMessige(String name){
        if(c1.get(Calendar.HOUR_OF_DAY)<12){
            return "Good Morning " + name;
-       }else if(c1.get(Calendar.HOUR_OF_DAY)> 11 || c1.get(Calendar.HOUR_OF_DAY) < 5 ){
+       }else if(c1.get(Calendar.HOUR_OF_DAY)> 11 || c1.get(Calendar.HOUR_OF_DAY) < 17 ){
            return "Good AfterNoon " + name;
        }else{
            return "Good Evening " + name;
